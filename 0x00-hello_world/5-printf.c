@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /**
- * Main task- prints the phrase with proper grammer, but the outcome
- * is a piece of art
- * Return: 0 when you exit
+ * Main-prints the phrase with proper grammar, but the outcome is a piece of art
+ * Return: 0 if exite properly, non-zero
  */
-
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
