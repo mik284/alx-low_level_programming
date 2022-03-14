@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * maina - prints possible three diferent outcomes
+ * main - prints possible three diferent outcomes
  *
  * Return: 0 always for succes.
  *
