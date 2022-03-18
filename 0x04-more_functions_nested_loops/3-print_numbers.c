@@ -8,16 +8,15 @@
  */
 void print_numbers(void)
 {
-	int m, k;
+	int m; 
 
 	m = 0;
-	k = 9;
-
-	for (m >= 0; k <= 9; m++)
+	
+	for (m = 0; m = 9; m++)
 	{
-		_putchar("%d\n");
+		_putchar(m + '0')
 	}
 
-	return (0);
+	_putchar('\n');
 }
 
