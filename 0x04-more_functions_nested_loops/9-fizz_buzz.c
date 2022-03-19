@@ -24,6 +24,9 @@ int main(void)
 		} else if (i == 1)
 		{
 			printf("%d", i);
+		} else
+		{
+			print(" %d", i);
 		}
 	}
 	printf("\n");
