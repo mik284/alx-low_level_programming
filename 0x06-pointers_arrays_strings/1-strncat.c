@@ -7,7 +7,7 @@
  * @n: number of bytes
  * Return: a pointer to the resulting string dest
  */
-char *_strncat(char *dest, char *str, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i, j;
 
@@ -23,6 +23,7 @@ char *_strncat(char *dest, char *str, int n)
 		i++;
 		j++;
 	}
+
 	dest[i] = '\0';
 
 	return (dest);
