@@ -2,9 +2,10 @@
 
 /**
  * _strncpy - copies a string
- * @src: source of string
  * @dest: destination string
+ * @src: source string
  * @n: number of bytes to copy
+ *
  * Return: pointer to the resulting string
  */
 char *_strncpy(char *dest, char *src, int n)
@@ -22,7 +23,7 @@ char *_strncpy(char *dest, char *src, int n)
 	while (i < n)
 	{
 		dest[i] = '\0';
-		i++
+		i++;
 	}
 
 	return (dest);
