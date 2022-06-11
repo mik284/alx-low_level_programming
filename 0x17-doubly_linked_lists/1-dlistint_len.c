@@ -9,7 +9,7 @@
  */
 size_t dlistint_len(const dlistint_t *h)
 {
-	register nodes = 0;
+	size_t nodes = 0;
 
 	if (h == NULL)
 	{
